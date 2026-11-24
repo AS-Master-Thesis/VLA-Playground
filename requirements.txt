@@ -1,0 +1,6 @@
+# Python >= 3.12 (required by lerobot)
+mujoco>=3.3
+numpy
+pillow
+lerobot[dataset]>=0.7
+onnxruntime

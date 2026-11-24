@@ -1,0 +1,18 @@
+repositories:
+  # Hugging Face LeRobot
+  external/lerobot:
+    type: git
+    url: https://github.com/huggingface/lerobot.git
+    version: main
+
+  # Unitree MuJoCo sim environment, G1 Xmls and Scene
+  external/unitree_mujoco:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_mujoco.git
+    version: main
+
+  # Unitree RL MuJoCo Lab / locomotion & whole-body RL policies (training and deployments)
+  external/unitree_rl_mjlab:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_rl_mjlab.git
+    version: main
